@@ -1,0 +1,206 @@
+.root {
+
+}
+
+.home-btn{
+    -fx-pref-width: 240;
+    -fx-pref-height: 190;
+    /*-fx-background-position: reltive;*/
+    -fx-background-color: #31a9cd;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+
+}
+.home-btn:hover{
+    -fx-pref-width: 250;
+    -fx-pref-height: 200;
+    /*-fx-background-position: reltive;*/
+    -fx-background-color: #058bb1;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    /*-fx-translate-x:-5 ;*/
+}
+.home-btn:pressed{
+    -fx-pref-width: 250;
+    -fx-pref-height: 200;
+    /*-fx-background-position: reltive;*/
+    -fx-background-color: #056d8c;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    /*-fx-translate-x:-5 ;*/
+}
+/*.list-cell.table-view :focused {*/
+/*    -fx-background-color: #70b0c4 ;*/
+/*}*/
+/*#70b0c4*/
+
+.list-cell:hover {
+    -fx-background-color: #cae3ea;
+    -fx-focus-color: transparent;
+
+}
+/*8fcde0*/
+.list-cell:focused {
+    -fx-background-color: #8fcde0;
+    -fx-focus-color: transparent;
+
+}
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+.tab-button{
+    -fx-border-radius: 1,0,0,0;
+    -fx-border-width:2px 0px 0px 0px;
+    -fx-border-color: #585d60;
+    -fx-focus-color: transparent;
+    -fx-text-fill: #363a3c;
+    -fx-pref-width: 300;
+    -fx-pref-height: 40;
+    /*-fx-background-color: #ecf1f6;*/
+    -fx-font-size: 18;
+}
+.tab-button:hover{
+    -fx-border-radius: 1,0,0,0;
+    -fx-border-width:2px 0px 0px 0px;
+   -fx-border-color: #9ca7b0;
+    -fx-focus-color: transparent;
+    -fx-text-fill: #45494c;
+    -fx-pref-width: 300;
+    /*-fx-background-color: #e6eef6;*/
+    -fx-font-size: 18;
+}
+.tab-button:focused{
+
+    -fx-background-insets: 0, 0, 1, 2;
+    -fx-border-radius: 1,0,0,0;
+    -fx-border-width:2px 0px 0px 0px;
+    -fx-border-color: #2185d0;
+    -fx-focus-color: transparent;
+    -fx-text-fill: #2185d0;
+    -fx-pref-width: 300;
+    /*-fx-background-color: #ecf1f6;*/
+    -fx-font-size: 18;
+}
+.text-area{
+    -fx-max-width: 350;
+    -fx-max-height: 100;
+}
+.label-profile .label {
+    -fx-font-size: 18;
+    /*-fx-text-fill: #2185d0;*/
+}
+.label-profile .button {
+-fx-background-color: white;
+    -fx-text-fill: #3993d7;
+    -fx-pref-width: 130;
+    -fx-pref-height: 50;
+    -fx-font-size: 22;
+    -fx-border-color:#3993d7 ;
+    -fx-font-family: "AGA Arabesque";
+    -fx-border-radius: 7;
+}
+.label-profile .button:hover {
+    -fx-text-fill: white;
+    -fx-pref-width: 130;
+    -fx-pref-height: 50;
+    -fx-font-size: 22;
+    -fx-font-family: "AGA Arabesque";
+    -fx-background-radius: 7;
+    /*-fx-border-color: #043356;*/
+
+    -fx-border-radius: 7;
+    -fx-background-color: #3993d7;
+}
+
+.label-profile .button:pressed {
+    -fx-text-fill: white;
+    -fx-pref-width: 130;
+    -fx-pref-height: 50;
+    -fx-font-size: 22;
+    -fx-font-family: "AGA Arabesque";
+    -fx-background-radius: 7;
+    /*-fx-border-color: #043356;*/
+
+    -fx-border-radius: 7;
+    -fx-background-color: #0680de;
+}
+
+.back-button {
+    -fx-background-color: #3993d7;
+-fx-content-display: center;
+-fx-pref-height: 30;
+    -fx-pref-width: 50;
+}
+.back-button:hover {
+    -fx-background-color: #0a82dd;
+    -fx-content-display: center;
+    -fx-pref-height: 30;
+    -fx-pref-width: 50;
+}
+.back-button:pressed {
+    -fx-background-color: #023d69;
+    -fx-content-display: center;
+    -fx-pref-height: 30;
+    -fx-pref-width: 50;
+}
+
+.bill .button:hover {
+    -fx-text-fill: white;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    /*-fx-font-size: 22;*/
+    -fx-font-family: "AGA Arabesque";
+    -fx-background-radius: 7;
+    /*-fx-border-color: #043356;*/
+
+    -fx-border-radius: 7;
+    -fx-background-color: #454e54;
+    -fx-border-width: 1;
+
+}
+
+.bill .button {
+    -fx-text-fill: #454e54;
+    -fx-background-color: #fff;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    /*-fx-font-size: 22;*/
+    -fx-font-family: "AGA Arabesque";
+    -fx-border-radius: 7;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-color: #454e54;
+    -fx-background-radius: 7;
+    -fx-border-width: 1;
+
+
+}
+.bill .button:pressed {
+
+    -fx-text-fill: white;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+    /*-fx-font-size: 22;*/
+    -fx-font-family: "AGA Arabesque";
+    -fx-background-radius: 7;
+    /*-fx-border-color: #043356;*/
+
+    -fx-border-radius: 7;
+    -fx-background-color: #282d30;
+    -fx-border-width: 1;
+
+}
+.bill .label{
+    -fx-text-fill: #0680de;
+    -fx-font-size: 25;
+    -fx-font-family: Arial;
+    /*-fx-pref-width: 220;*/
+
+}
+
